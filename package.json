@@ -1,5 +1,5 @@
 {
-  "name": "8-mongoose",
+  "name": "random",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,15 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/umangbhardwaj2001/random.git"
   },
-  "author": "umang",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/umangbhardwaj2001/random/issues"
   },
   "homepage": "https://github.com/umangbhardwaj2001/random#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.5.0",
     "nodemon": "^2.0.19"
   }
 }
